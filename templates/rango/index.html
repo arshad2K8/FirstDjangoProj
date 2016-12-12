@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+    <html>
+        <head>
+            <title> Rango APP</title>
+            <!-- CSS files here -->
+            <!-- <link rel="stylesheet" href="{% static 'css/base.css' %}" /> -->
+            <!-- Javascript Files here -->
+            <!--  <script src = "{% static 'js/jquery.js' %}" /> -->
+        </head>
+
+    <body>
+        <h1> Rango Says Hello </h1>
+        hello world!! <strong> {{ boldmessage }}</strong><br/>
+        <a href="/rango/about/"> About</a><br />
+
+        <img src="{% static 'images/rango-picture.jpg' %}" alt="Picture of rango">
+
+
+    </body>
+    </html>
